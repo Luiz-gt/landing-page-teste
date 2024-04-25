@@ -1,0 +1,1 @@
+Esse é um projeto visando copiar o layout de uma página já existente, estou começando a jornada no mundo da programação e espero que esse seja a primeira de muitas outras conquistas. A princípio vou utilizar apenas HTML e CSS para estilizar o site.
