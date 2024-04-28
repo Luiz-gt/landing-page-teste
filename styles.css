@@ -42,8 +42,8 @@ flex:1;
 /*fim do header*/
 /*começo da segunda seção*/
 .container1 {
-    padding-left:310px;
-    padding-right:310px;
+    padding-left:200px;
+    padding-right:200px;
     padding-top:100px;
     padding-bottom:100px;;
     background:#1f2937;
@@ -94,4 +94,32 @@ flex:1;
     font-size:18px;
     color:#e5e7eb;
     font-weight:1000;
+}
+/*Fim da segunda seção*/
+/*Começo da terceira seção*/
+#h2terceiraSecao{
+    text-align:center;
+    font-size:36px;
+    font-weight:bolder;
+    color:#1f2937;
+}
+.container4 {
+    size:100%;
+    align-items:center;
+    display:flex;
+    text-align:center;
+    padding-left:250px;
+    padding-right:250px;
+}
+.subcontainer{
+    margin:0 auto;
+    flex:1;
+    border:solid green;
+}
+.placeholder {
+    margin:0 auto;
+    height:150px;
+    width:150px;
+    border-radius:10px;
+    border:5px solid #3882f6;
 }
