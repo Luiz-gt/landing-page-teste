@@ -66,9 +66,6 @@ flex:1;
 .container3 {
     flex:0 0 50%;
 }
-.container3 div{
-    /*border:solid green;*/
-}
 .img-placeholder{
     display:flex;
     flex-direction:row;
@@ -110,11 +107,11 @@ flex:1;
     text-align:center;
     padding-left:250px;
     padding-right:250px;
+    padding-bottom:50px;
 }
 .subcontainer{
     margin:0 auto;
     flex:1;
-    border:solid green;
 }
 .placeholder {
     margin:0 auto;
@@ -122,4 +119,24 @@ flex:1;
     width:150px;
     border-radius:10px;
     border:5px solid #3882f6;
+}
+.container5{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    background-color:#e5e7eb;
+    height:300px;
+    justify-content: center;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.container5 p{
+    text-align:left;
+    font-size:36px;
+    color:#1F2937
+}
+#assinatura{
+    font-size:20px;
+    font-weight:1000;
+    text-align:right;
 }
