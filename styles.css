@@ -1,5 +1,5 @@
 /*css do header*/
-p{
+*{
     font-family:arial,'Times New Roman', Times, serif;
 }
 .header{
@@ -9,7 +9,7 @@ p{
 }
 .header-link,.header-logo{
     height: 100px;
-    border: solid red;
+    /*border: solid red;*/
     flex:1;
 }
 .header-logo {
@@ -25,7 +25,7 @@ flex:1;
     display:flex;
 }
 .header-link div{
-    border:solid green;
+    /*border:solid green;*/
     flex:1 1 auto;
 }
 .dois {
@@ -33,9 +33,65 @@ flex:1;
 }
 .dois p {
     font-size:18px;
-    font-weight:700;
+    font-weight:500;
     color:#e5e7eb;
 }
 .dois .link{
     flex:1;
+}
+/*fim do header*/
+/*começo da segunda seção*/
+.container1 {
+    padding-left:310px;
+    padding-right:310px;
+    padding-top:100px;
+    padding-bottom:100px;;
+    background:#1f2937;
+    display:flex;
+}
+.container-title{
+   flex:0.5 0 50%;
+   /*border:solid green;*/
+}
+.container-title h1{
+    font-size:48px;
+    font-weight:1000;
+    color:#f9faf8;
+}
+.container-title p{
+    font-size:18px;
+    color:#e5e7eb;
+    font-weight:500;
+}
+.container3 {
+    flex:0 0 50%;
+}
+.container3 div{
+    /*border:solid green;*/
+}
+.img-placeholder{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    background-color:lightslategray;
+    height:300px;
+    width:600px;
+    font-size:18px;
+    color:#e5e7eb;
+    font-weight:500;
+}
+.img-placeholder p{
+    width:100%;
+    text-align:center;
+    vertical-align:middle;
+}
+.button1{
+    background-color:#3882f6;
+    border-radius:10px;
+    border:none;
+    height:40px;
+    width:150px;
+    font-size:18px;
+    color:#e5e7eb;
+    font-weight:1000;
 }
