@@ -197,3 +197,18 @@ flex:1;
     background-color: #3882F6;
     border:solid #f9faf8;
 }
+/*fim da quinta seção*/
+/*começo da sexta seção (footer)*/
+.footer{
+    display:flex;
+    align-items:center;
+    font-size:18px;
+    font-weight:500;
+    color:#e5e7eb;
+    text-align:center;
+    background-color: #1f2937;
+    height:100px;
+}
+.footer p{
+    margin:0 auto;
+}
