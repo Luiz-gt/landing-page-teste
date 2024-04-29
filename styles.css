@@ -45,7 +45,7 @@ flex:1;
     padding-left:200px;
     padding-right:200px;
     padding-top:100px;
-    padding-bottom:100px;;
+    padding-bottom:100px;
     background:#1f2937;
     display:flex;
 }
@@ -133,10 +133,67 @@ flex:1;
 .container5 p{
     text-align:left;
     font-size:36px;
-    color:#1F2937
+    color:#1F2937;
 }
 #assinatura{
     font-size:20px;
     font-weight:1000;
     text-align:right;
+}
+/*fim da quarta seção*/
+/*começo da quinta seção*/
+.container6{
+    margin:0 auto;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    padding-top:70px;
+    padding-bottom:70px; 
+}
+.subcontainer6 {
+    padding-left:100px;
+    padding-right: 100px;
+    margin:0 auto;
+    background-color: #3882F6;
+    border-radius: 10px;
+    height:150px;
+    width:800px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.subP{
+    padding:0;
+    flex:1;
+}
+.textoForte{
+    font-size:24px;
+    font-weight:700;
+    color:#f9faf8;
+    margin-bottom:0;
+}
+.normal{
+    font-size:18px;
+    font-weight:500;
+    color:#e5e7eb;
+    margin-top:0;
+}
+.subB{
+    display:flex;
+    margin:0 auto;
+    align-items: center;
+    flex:1;
+}
+.subB button{
+    align:center;
+    margin:0 auto;
+    color:#f9faf8;
+    font-size:18px;
+    font-weight:600;
+    border-radius:10px;
+    height:40px;
+    width:130px;
+    background-color: #3882F6;
+    border:solid #f9faf8;
 }
